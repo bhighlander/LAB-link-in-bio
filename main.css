@@ -1,3 +1,76 @@
 body {
-  background-color: aqua;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-image: linear-gradient(45deg, #dbd3c2, #dbc7c2);
+}
+
+header {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-link {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+  width: 100%;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item {
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: 1em;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #c2c9db;
+}
+
+.btn:hover {
+  background-color: #8596c2;
+}
+
+.social-img img {
+  width: 30px;
+  height: 30px;
+}
+
+.name {
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px;
+}
+
+.phone {
+  font-weight: 300;
+  padding: 5px;
+  margin: 5px;
+}
+
+.profile-pic img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
 }
